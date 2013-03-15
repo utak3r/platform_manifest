@@ -16,10 +16,14 @@
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
+		   
   <remote  name="cas"
            fetch="http://gitlab.cas-online.nl/erikcas/"
            review="review.cas-online.nl:8181" />
 
+  <remote  name="utak3r"
+           fetch="https://github.com/" />		   
+		   
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -239,7 +243,7 @@
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
 <!--  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />-->
-  <project path="external/wpa_supplicant_8_ti" name="utak3r/wpa_supplicant_8_ti" remote="aokp" revision="jb-mr1" />
+  <project path="external/wpa_supplicant_8_ti" name="utak3r/wpa_supplicant_8_ti" remote="utak3r" revision="jb-mr1" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
