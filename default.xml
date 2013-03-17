@@ -462,7 +462,8 @@
 
 <!--Legacy devices go here-->
   <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="aokp" revision="jb-mr1" />
+<!--  <project path="device/samsung/cooper" name="erikcas/android_device_samsung_cooper" remote="aokp" revision="jb-mr1" />-->
+  <project path="device/samsung/cooper" name="utak3r/android_device_samsung_cooper" remote="utak3r" revision="jb-mr1" />
   <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxy5" name="erikcas/android_device_samsung_galaxy5" remote="aokp" revision="jb-mr1" />
