@@ -335,7 +335,8 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="utak3r/packages_apps_Settings" remote="utak3r" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr1" />
+<!--  <project path="packages/apps/Settings" name="utak3r/packages_apps_Settings" remote="utak3r" revision="jb-mr1" /> -->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -436,7 +437,7 @@
   <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="aokp" revision="cm-10.1" />
   <project path="external/srec" name="erikcas/platform_external_srec" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/av" name="erikcas/frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/base" name="erikcas/frameworks_base" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/base" name="utak3r/frameworks_base" remote="utak3r" revision="jb-mr1" />
   <project path="frameworks/native" name="erikcas/frameworks_native" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="aokp" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
