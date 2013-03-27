@@ -356,7 +356,7 @@
   <project path="external/wpa_supplicant_8" name="androidarmv6/android_external_wpa_supplicant_8" remote="aokp" revision="cm-10.1" />
   <project path="external/srec" name="erikcas/platform_external_srec" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/av" name="erikcas/frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/base" name="utak3r/frameworks_base" remote="utak3r" revision="jb-mr1" />
+  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/native" name="erikcas/frameworks_native" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="aokp" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
