@@ -194,8 +194,6 @@
   <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-<!--  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" />-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -204,7 +202,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-<!--  <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="jb-mr1" />-->
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -212,14 +209,12 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-<!--  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />-->
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <!--  <project path="libcore" name="platform/libcore" />-->
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
 
@@ -344,8 +339,6 @@
   <project path="frameworks/base" name="utak3r/frameworks_base" remote="utak3r" revision="jb-mr1" />
   <project path="frameworks/native" name="erikcas/frameworks_native" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="aokp" revision="cm-10.1" />
-  
-  
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/atheros/wifi/libs" name="androidarmv6/android_hardware_atheros_wifi_libs" remote="aokp" revision="cm-10.1" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="aokp" revision="cm-10.1" />
@@ -358,7 +351,6 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
-<!-- 
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="aokp" revision="cm-10.1" />
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="aokp" revision="cm-10.1" />
@@ -376,29 +368,30 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="aokp" revision="cm-10.1" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="aokp" revision="cm-10.1"/>
--->  
+
   <project path="libcore" name="CyanogenMod/android_libcore" remote="aokp" revision="cm-10.1" />
   <project path="system/core" name="erikcas/android_system_core" remote="aokp" revision="jb-mr1" />
   <project path="system/netd" name="androidarmv6/android_system_netd" remote="aokp" revision="cm-10.1" />
 
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/sample" name="device/sample" />
-
+  
   <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/cooper" name="utak3r/android_device_samsung_cooper" remote="utak3r" revision="jb-mr1" />
   <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxy5" name="erikcas/android_device_samsung_galaxy5" remote="aokp" revision="jb-mr1" />
-<!--
-  <project path="device/samsung/msm7x27-common" name="utak3r/android_device_samsung_msm7x27-common" remote="utak3r" revision="jb-mr1" />
+
+  <!--<project path="device/samsung/msm7x27-common" name="utak3r/android_device_samsung_msm7x27-common" remote="utak3r" revision="jb-mr1" />-->
+  <project path="device/samsung/msm7x27-common" name="erikcas/android_device_samsung_msm7x27-common" remote="aokp" revision="jb-mr1" />
   <project path="device/qcom/msm7x27" name="erikcas/android_device_qcom_msm7x27" remote="aokp" revision="jb-mr1" />
--->
+
   <project path="device/mdpi-common" name="androidarmv6/android_device_mdpi-common" remote="aokp" revision="cm-10.1" />
   <project path="device/ldpi-common" name="erikcas/android_device_ldpi-common" remote="aokp" revision="jb-mr1" />
-<!--Kernel goes here-->
+
+
   <project path="kernel/samsung/msm7x27" name="utak3r/android_kernel_samsung_msm7x27" remote="utak3r" revision="android-4.2.1" />
 
-<!--Vendor goes here-->
   <project path="vendor/aokp" name="erikcas/vendor_aokp" remote="aokp" revision="jb-mr1" />
   <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="aokp" revision="cm-10.1" />
   <project path="vendor/qcom/msm7x27" name="androidarmv6/android_vendor_qcom_msm7x27" remote="aokp" revision="cm-10.1" />
