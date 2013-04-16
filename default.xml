@@ -333,7 +333,7 @@
   </project>
 
   <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />
-  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
+  <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.1" />
   <project path="development" name="android_development" remote="androidarmv6" revision="cm-10.1" />
   <project path="external/libncurses" name="android_external_libncurses" remote="androidarmv6" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="androidarmv6" revision="cm-10.1" />
