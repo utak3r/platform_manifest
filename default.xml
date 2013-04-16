@@ -24,6 +24,9 @@
   <remote  name="androidarmv6"
 		   fetch="https://github.com/androidarmv6/" />
 
+  <remote  name="AOKPlegacy"
+		   fetch="https://github.com/legacy-aokp/" />
+
   <remote  name="utak3r"
            fetch="https://github.com/utak3r/" />
 		   
@@ -251,7 +254,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -328,7 +331,7 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
 <!-- cooper - Samsung Ace - specific settings -->
-  <project path="build" name="erikcas/android_build" remote="aokp" revision="jb-mr1" >
+  <project path="build" name="build" remote="AOKPlegacy" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -338,9 +341,9 @@
   <project path="external/libncurses" name="android_external_libncurses" remote="androidarmv6" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="androidarmv6" revision="cm-10.1" />
   <project path="external/srec" name="erikcas/platform_external_srec" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/av" name="erikcas/frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/base" name="frameworks_base" remote="utak3r" revision="jb-mr1" />
-  <project path="frameworks/native" name="erikcas/frameworks_native" remote="aokp" revision="jb-mr1" />
+  <project path="frameworks/av" name="frameworks_av" remote="AOKPlegacy" revision="jb-mr1" />
+  <project path="frameworks/base" name="frameworks_base" remote="AOKPlegacy" revision="jb-mr1" />
+  <project path="frameworks/native" name="frameworks_native" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/atheros/wifi/libs" name="android_hardware_atheros_wifi_libs" remote="androidarmv6" revision="cm-10.1" />
@@ -373,14 +376,14 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1"/>
 
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.1" />
-  <project path="system/core" name="erikcas/android_system_core" remote="aokp" revision="jb-mr1" />
+  <project path="system/core" name="android_system_core" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="system/netd" name="android_system_netd" remote="androidarmv6" revision="cm-10.1" />
 
   <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/sample" name="device/sample" />
   
-  <project path="device/samsung/gio" name="erikcas/android_device_samsung_gio" remote="aokp" revision="jb-mr1" />
-  <project path="device/samsung/cooper" name="android_device_samsung_cooper" remote="utak3r" revision="jb-mr1" />
+  <project path="device/samsung/gio" name="android_device_samsung_gio" remote="AOKPlegacy" revision="jb-mr1" />
+  <project path="device/samsung/cooper" name="android_device_samsung_cooper" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="device/samsung/beni" name="erikcas/android_device_samsung_beni" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/tass" name="erikcas/android_device_samsung_tass" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/galaxy5" name="erikcas/android_device_samsung_galaxy5" remote="aokp" revision="jb-mr1" />
@@ -395,7 +398,7 @@
 
   <project path="kernel/samsung/msm7x27" name="android_kernel_samsung_msm7x27" remote="utak3r" revision="android-4.2.1" />
 
-  <project path="vendor/aokp" name="erikcas/vendor_aokp" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="vendor/samsung" name="android_vendor_samsung" remote="androidarmv6" revision="cm-10.1" />
   <project path="vendor/qcom/msm7x27" name="android_vendor_qcom_msm7x27" remote="androidarmv6" revision="cm-10.1" />
   <project path="vendor/google" name="erikcas/android_vendor_google" remote="aokp" revision="cm-10.1" />
