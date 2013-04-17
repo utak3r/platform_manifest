@@ -25,7 +25,8 @@
 		   fetch="https://github.com/androidarmv6/" />
 
   <remote  name="AOKPlegacy"
-		   fetch="https://github.com/legacy-aokp/" />
+		   fetch="https://github.com/legacy-aokp/" 
+		   review="review.jellaxy.com" />
 
   <remote  name="utak3r"
            fetch="https://github.com/utak3r/" />
