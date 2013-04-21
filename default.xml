@@ -17,9 +17,9 @@
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
 		   
-  <remote  name="cas"
-           fetch="http://gitlab.cas-online.nl/erikcas/"
-           review="review.cas-online.nl:8181" />
+  <remote  name="caf"
+           fetch="git://codeaurora.org/"
+           review="codeaurora.org" />
 		   
   <remote  name="androidarmv6"
 		   fetch="https://github.com/androidarmv6/" />
@@ -55,7 +55,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
+<!--  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />-->
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
@@ -217,7 +217,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+<!--  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />-->
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
@@ -228,7 +228,7 @@
 
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
+<!--  <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />-->
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
@@ -317,7 +317,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+<!--  <project path="system/bluetooth" name="platform/system/bluetooth" />-->
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/security" name="platform/system/security" />
@@ -340,6 +340,10 @@
 
   <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />
   <project path="dalvik" name="android_dalvik" remote="cm" revision="cm-10.1" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="caf" revision="jb_2.5" groups="default" />
+  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="caf" revision="jb_2.5" groups="default" />
   <project path="development" name="android_development" remote="androidarmv6" revision="cm-10.1" />
   <project path="external/libncurses" name="android_external_libncurses" remote="androidarmv6" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="androidarmv6" revision="cm-10.1" />
@@ -348,6 +352,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="frameworks/native" name="frameworks_native" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.1" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/atheros/wifi/libs" name="android_hardware_atheros_wifi_libs" remote="androidarmv6" revision="cm-10.1" />
   <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-10.1" />
@@ -379,6 +384,10 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-10.1"/>
 
   <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Effem" name="android_packages_apps_Effem" remote="androidarmv6" revision="master" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="androidarmv6" revision="cm-10.1" />
+  <project path="packages/apps/Bluetooth_msm" name="android_packages_apps_Bluetooth_msm" remote="androidarmv6" revision="cm-10.1" />
+  <project path="system/bluetooth" name="android_system_bluetooth" remote="androidarmv6" revision="cm-10.1" />
   <project path="system/core" name="android_system_core" remote="AOKPlegacy" revision="jb-mr1" />
   <project path="system/netd" name="android_system_netd" remote="androidarmv6" revision="cm-10.1" />
 
